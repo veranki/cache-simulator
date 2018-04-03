@@ -1,0 +1,54 @@
+  ===== Simulator configuration =====
+  L1_BLOCKSIZE:                    32
+  L1_SIZE:                       4096
+  L1_ASSOC:                         4
+  L1_REPLACEMENT_POLICY:            0
+  L1_WRITE_POLICY:                  1
+  trace_file:            perl_trace.txt
+  ===================================
+
+===== L1 contents =====
+set0:	10007a 	10006d 	10007b 	100075 	
+set1:	1000b4 	10007b 	100073 	100035 	
+set2:	100035 	10007b 	1000b3 	1000b4 	
+set3:	1000b0 	1000a1 	100035 	10007b 	
+set4:	100035 	10006f 	1000b4 	10007b 	
+set5:	10007b 	100058 	10007a 	10006f 	
+set6:	100079 	1000a1 	10006f 	10007a 	
+set7:	100035 	1000a1 	10007a 	1000b3 	
+set8:	10007b 	10007a 	1000b4 	1000a1 	
+set9:	10007a 	10006f 	100079 	10007b 	
+set10:	1000b2 	1000ad 	1000ae 	10007a 	
+set11:	10002e 	1000b2 	1000a9 	10007a 	
+set12:	1ec0cf 	1000a9 	100035 	10007a 	
+set13:	10007a 	1000ad 	1ec0cf 	10006f 	
+set14:	1000b2 	1000b3 	1000ad 	10007a 	
+set15:	10007a 	1000ad 	1000b2 	1000b3 	
+set16:	10006f 	1000b3 	1000b0 	1000ad 	
+set17:	1000b2 	1000b1 	1000ad 	1000af 	
+set18:	1000b1 	1000b3 	1000b2 	1000ad 	
+set19:	1000ab 	1000b3 	1000ad 	1ec0cf 	
+set20:	1000b3 	1000ad 	1000aa 	10007a 	
+set21:	1000ad 	1000b2 	100008 	10007a 	
+set22:	1ec0cf 	10007a 	100008 	1000b3 	
+set23:	1000b2 	1000b3 	100064 	1ec0cf 	
+set24:	1000b0 	1000a0 	1000af 	100077 	
+set25:	1000ab 	1000b1 	1000b2 	1000b0 	
+set26:	10004e 	1000b3 	100031 	10004c 	
+set27:	1000b3 	1ec0cf 	10004e 	100031 	
+set28:	10007a 	1000b0 	1000af 	1000a0 	
+set29:	1ec0ce 	1000b0 	10007a 	1000b3 	
+set30:	1000b3 	1ec0ce 	1000b1 	1000b2 	
+set31:	100074 	1000b3 	100077 	1000b1 	
+
+  ====== Simulation results (raw) ======
+  a. number of L1 reads:           70107
+  b. number of L1 read misses:      4739
+  c. number of L1 writes:          29893
+  d. number of L1 write misses:     6850
+  e. L1 miss rate:                0.1159
+  f. number of writebacks from L1:     0
+  g. total memory traffic:         34632
+
+  ==== Simulation results (performance) ====
+  1. average access time:          2.8337 ns

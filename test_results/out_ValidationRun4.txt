@@ -1,0 +1,86 @@
+  ===== Simulator configuration =====
+  L1_BLOCKSIZE:                    64
+  L1_SIZE:                       8192
+  L1_ASSOC:                         2
+  L1_REPLACEMENT_POLICY:            1
+  L1_WRITE_POLICY:                  0
+  trace_file:            gcc_trace.txt
+  ===================================
+
+===== L1 contents =====
+set0:	40033 D 	7b035 D 	
+set1:	40056 D 	40033 D 	
+set2:	7b035 D 	4001f 	
+set3:	40056 D 	40055 D 	
+set4:	40055 D 	40056 D 	
+set5:	40056 D 	7b035 D 	
+set6:	42355 	4001f 	
+set7:	4003f D 	40056 D 	
+set8:	40038 D 	40056 D 	
+set9:	40048 	40038 D 	
+set10:	40029 	40001 	
+set11:	4001f 	40001 	
+set12:	40001 	4001f 	
+set13:	40001 	40051 D 	
+set14:	40031 D 	40051 D 	
+set15:	40035 D 	40051 D 	
+set16:	40051 D 	40031 	
+set17:	40051 D 	40031 	
+set18:	4002f 	40031 	
+set19:	df8 	4001f 	
+set20:	4001f 	40036 D 	
+set21:	4001f 	40027 	
+set22:	40027 	4003e 	
+set23:	40027 	40051 D 	
+set24:	4002a D 	4001f 	
+set25:	df8 	40044 D 	
+set26:	40051 D 	4003e D 	
+set27:	40037 D 	40051 D 	
+set28:	40051 D 	4002f D 	
+set29:	40035 D 	40051 D 	
+set30:	40051 D 	40035 	
+set31:	40055 D 	40051 D 	
+set32:	40136 D 	4003e D 	
+set33:	40035 D 	40051 D 	
+set34:	40051 D 	40055 D 	
+set35:	40035 D 	40051 D 	
+set36:	40138 D 	7b033 D 	
+set37:	7b033 D 	40042 D 	
+set38:	40051 D 	40055 D 	
+set39:	40051 D 	40055 D 	
+set40:	7b033 D 	40051 D 	
+set41:	40051 D 	40055 D 	
+set42:	40051 D 	40055 D 	
+set43:	40051 D 	40055 D 	
+set44:	40051 D 	40055 D 	
+set45:	40055 D 	40051 D 	
+set46:	40051 D 	40031 D 	
+set47:	40051 D 	40031 D 	
+set48:	40051 D 	40055 D 	
+set49:	40055 D 	40051 D 	
+set50:	7b034 D 	40051 D 	
+set51:	7b034 D 	4003e D 	
+set52:	40054 D 	40055 D 	
+set53:	7b034 D 	40035 	
+set54:	4003f D 	40055 D 	
+set55:	40036 D 	40055 D 	
+set56:	40055 D 	40039 	
+set57:	40022 D 	4003e D 	
+set58:	40031 D 	40047 	
+set59:	40047 	40055 D 	
+set60:	40047 	7b034 D 	
+set61:	7b034 D 	40047 	
+set62:	4001e 	40031 D 	
+set63:	4001c 	40032 D 	
+
+  ====== Simulation results (raw) ======
+  a. number of L1 reads:           63640
+  b. number of L1 read misses:      3492
+  c. number of L1 writes:          36360
+  d. number of L1 write misses:     2096
+  e. L1 miss rate:                0.0559
+  f. number of writebacks from L1:  2415
+  g. total memory traffic:          8003
+
+  ==== Simulation results (performance) ====
+  1. average access time:          1.6294 ns

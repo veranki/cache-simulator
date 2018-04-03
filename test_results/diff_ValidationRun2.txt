@@ -1,0 +1,5 @@
+24c24
+<   1. average access time:          7.1442 ns
+---
+>   1. average access time:         7.1539 ns
+\ No newline at end of file
